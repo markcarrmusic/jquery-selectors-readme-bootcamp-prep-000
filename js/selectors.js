@@ -19,3 +19,8 @@ function divSelector() {
   const divPic = $('div.pics');
   return divPic;
 }
+
+function firstListItem() {
+  const firstList = $('ul#pic-list:fist-child');
+  return firstList;
+}

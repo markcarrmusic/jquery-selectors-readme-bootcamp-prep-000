@@ -14,3 +14,8 @@ function ninjaBabySelector() {
   const babyNinja = $('#baby-ninja');
   return babyNinja;
 }
+
+function divSelector() {
+  const divPic = $('div .pic');
+  return divPic;
+}
